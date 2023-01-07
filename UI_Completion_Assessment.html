@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Xplore</title>
+
+    <!--Css File Linked-->
+    <link rel="stylesheet" href="./UI_Completion_Assessment.css">
+
+    <!--JavaScript File Linked-->
+    <script src="./JS/UI_Completion_Assessment.js"></script>
+</head>
+<body>
+    <div id="main">
+
+        <form name="my_form">
+            <!-- Name -->
+            <label for="name" class="name">Student Name : </label>
+            <input type="text" id="name" class="name" placeholder="Enter your Name">
+            <br><br>
+
+            <!--Age-->
+            <label for="age" class="age">Age : </label>
+            <input type="number" id="age" class="age" placeholder="Enter your Age">           
+            <br><br>
+
+            <!--Gender-->
+            <label for="gender">Gender : </label>
+            <input type="radio" id="male" name="gender" value="Male">Male
+            <input type="radio" id="female" name="gender" value="Female">Female
+            <br><br>
+
+            <!--City-->
+            <label for="city">City : </label>
+            <select name="city" id="city">
+                <option value=""></option>
+                <option value="Delhi">Delhi</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Kolkata">Kolkata</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Andhra Pradesh"> Andhra Pradesh</option>
+            </select>
+            <br><br>
+
+            <!--Hobby-->
+            <label for="hobby">Hobby : </label>
+            <input type="checkbox" id="painting" name="hobby" value="painting">Painting
+            <input type="checkbox" id="dancing" name="hobby" value="dancing">Dancing
+            <input type="checkbox" id="sports" name="hobby" value="sports">Sports
+        </form>
+        <br>
+
+        <!--Submit Button-->
+        <button onclick="sub()">Submit</button>
+        <br><br>
+
+        <!--Outputs-->
+        <div id="name_value"></div>
+        <div id="age_value"></div>
+        <div id="gender_value"></div>
+        <div id="city_value"></div>
+        <div id="hobbies_value"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+#main
+    {
+        padding-top: 2%;
+        margin-top: 2%;
+        margin-left: 33%;
+        margin-right: 33%;
+        background-color: pink;
+    }
+.name
+    {
+        background-color: yellow;
+    }
+.age
+    {
+        background-color: yellow;
+    }
