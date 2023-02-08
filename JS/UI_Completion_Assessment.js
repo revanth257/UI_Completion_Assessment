@@ -15,7 +15,7 @@ function sub()
 
     if(name=="" || age=="" || (male.checked==false && female.checked==false) || city=="" || (painting.checked==false && dancing.checked==false && sports.checked==false))
     {
-        alert("all feilds are Manadatory")
+        alert("**All feilds are Manadatory**")
     }
     else{
 
